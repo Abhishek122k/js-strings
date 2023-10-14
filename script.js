@@ -3,7 +3,7 @@ var x="I am a";
 var y=" Kalvian";
 console.log(x+ y);
 // Challenge 2: Store the given string in a variable and print the same in console. String: If you fail, never give up because FAIL means "First Attempt In Learning".
-var a="If you fail, never give up because FAIL means First Attempt In Learning";
+var a=`If you fail, never give up because FAIL means "First Attempt In Learning"`;
 console.log(a);
 // Challenge 3: Store a string in a variable and display the length of the string.
 var b="hello";
@@ -39,7 +39,7 @@ if (l.includes("lemon")) {
 } 
 // Challenge 10: Store the given string "You must be the change you wish to see in the world." in a variable and use slice to console log the word "change" and use substring method to console log the word "world".
 var w="You must be the change you wish to see in the world.";
-var m = w.slice(19, 25);
+var m = w.slice(16, 22);
 console.log(m); 
-var o = w.substring(42, 47);
+var o = w.substring(46, 51);
 console.log(o); 
